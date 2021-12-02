@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Hospital.unity
+- path: Assets/Scenes/PostoEnfermagem.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
