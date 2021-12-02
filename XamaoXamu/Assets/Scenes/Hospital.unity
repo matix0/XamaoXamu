@@ -169,6 +169,8 @@ GameObject:
   m_Component:
   - component: {fileID: 322618478}
   - component: {fileID: 322618477}
+  - component: {fileID: 322618479}
+  - component: {fileID: 322618480}
   m_Layer: 0
   m_Name: BombaDeInfusao
   m_TagString: Untagged
@@ -241,6 +243,47 @@ Transform:
   m_Father: {fileID: 144223204}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &322618479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322618476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.15, y: 0.67}
+    newSize: {x: 0.15, y: 0.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.67}
+  m_EdgeRadius: 0
+--- !u!114 &322618480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322618476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2fbcc80253ab64195dd28ef1d29b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 322618477}
+  BombaHighlight: {fileID: -8524995656969058860, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Bomba: {fileID: 3415083346421523684, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
 --- !u!1 &562070548
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +377,8 @@ GameObject:
   m_Component:
   - component: {fileID: 577313266}
   - component: {fileID: 577313265}
+  - component: {fileID: 577313267}
+  - component: {fileID: 577313268}
   m_Layer: 0
   m_Name: VentiladorMecanico
   m_TagString: Untagged
@@ -406,6 +451,47 @@ Transform:
   m_Father: {fileID: 144223204}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &577313267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577313264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.36, y: 0.47}
+    newSize: {x: 0.36, y: 0.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.36, y: 0.47}
+  m_EdgeRadius: 0
+--- !u!114 &577313268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577313264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5d904083f3b56408bc9e99371ae76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 577313265}
+  VentiladorHighlight: {fileID: -3460736131564645492, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Ventilador: {fileID: 2994191326042177790, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
 --- !u!1 &608982943
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +706,8 @@ GameObject:
   m_Component:
   - component: {fileID: 748130706}
   - component: {fileID: 748130705}
+  - component: {fileID: 748130707}
+  - component: {fileID: 748130708}
   m_Layer: 0
   m_Name: MonitorMultiparametro
   m_TagString: Untagged
@@ -692,6 +780,47 @@ Transform:
   m_Father: {fileID: 144223204}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &748130707
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748130704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.18}
+    newSize: {x: 0.18, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18, y: 0.18}
+  m_EdgeRadius: 0
+--- !u!114 &748130708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748130704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5715dfcb1e7265140a0c7661406dfc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 748130705}
+  MonitorHighlight: {fileID: 3447047418915208133, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Monitor: {fileID: -8555808125243297129, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
 --- !u!1 &904343585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,6 +1860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1266094710}
   - component: {fileID: 1266094711}
+  - component: {fileID: 1266094712}
+  - component: {fileID: 1266094713}
   m_Layer: 0
   m_Name: Desfibrilador
   m_TagString: Untagged
@@ -1803,6 +1934,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1266094712
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266094709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0002799034, y: 0.0014072806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.17}
+    newSize: {x: 0.18, y: 0.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18356168, y: 0.17605415}
+  m_EdgeRadius: 0
+--- !u!114 &1266094713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266094709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00508df1a888c3e42a4cbad6e51d8a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 1266094711}
+  DesfibriladorHighlight: {fileID: 8467033327998840885, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Desfibrilador: {fileID: -8867539610770725102, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
 --- !u!1 &1301924449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +2111,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1549524604}
   - component: {fileID: 1549524603}
+  - component: {fileID: 1549524605}
+  - component: {fileID: 1549524606}
   m_Layer: 0
   m_Name: CarrinhoDeParada
   m_TagString: Untagged
@@ -2011,6 +2185,47 @@ Transform:
   m_Father: {fileID: 144223204}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1549524605
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549524602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.38}
+    newSize: {x: 0.3, y: 0.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.38}
+  m_EdgeRadius: 0
+--- !u!114 &1549524606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549524602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef9afd0cf6c6184bbb1bc4b5e62433c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 1549524603}
+  CarrinhoHighlight: {fileID: 789768500547701205, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Carrinho: {fileID: -7913246705272278621, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
 --- !u!1 &1727544178
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,6 +2236,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1727544180}
   - component: {fileID: 1727544179}
+  - component: {fileID: 1727544181}
+  - component: {fileID: 1727544182}
   m_Layer: 0
   m_Name: RedeDeGases
   m_TagString: Untagged
@@ -2093,3 +2310,44 @@ Transform:
   m_Father: {fileID: 144223204}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1727544181
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727544178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.35, y: 0.1}
+    newSize: {x: 0.35, y: 0.1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.1}
+  m_EdgeRadius: 0
+--- !u!114 &1727544182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727544178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c05ad2966dcc043b7bf60caebb14db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 1727544179}
+  GasesHighlight: {fileID: -5706094840733317268, guid: 9b19dea78d66b844e816c76ee5a0a29e, type: 3}
+  Gases: {fileID: 3081495077775113149, guid: 08c6610bc6565b045949f9da96b8ce97, type: 3}
