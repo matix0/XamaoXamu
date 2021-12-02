@@ -1,37 +1,37 @@
-# XamaoXamu
-Jogo educacional na área da saúde, buscando simular o comportamento do médico 
+# XamaoXamu<br/> 
+Jogo educacional na área da saúde, buscando simular o comportamento do médico <br/> 
 ou do enfermeiro diante os sintomas de pacientes com sepse.
 
 # US01
-Menu
--menu principal
--menu de opções
+### *Menu*<br/> 
+-menu principal<br/> 
+-menu de opções<br/> 
 
 # US02
-*Hospital*
--Área de recepção do paciente
--Área de tratamento
--Área de confecção de medicamentos
--Área de saída do paciente após tratamento
+### *Hospital*<br/> 
+-Área de recepção do paciente<br/> 
+-Área de tratamento<br/> 
+-Área de confecção de medicamentos<br/> 
+-Área de saída do paciente após tratamento<br/> 
 
 # US03
-*Personagens*
--Pixel art
--Alocação do personagem na scene
--Movimentação do personagem
+### *Personagens*<br/> 
+-Pixel art<br/> 
+-Alocação do personagem na scene<br/> 
+-Movimentação do personagem<br/> 
 
 # US04
-*Equipamentos*
--Pixel art de todos os equipamentos e utensilios nescessarios
-para as interações do enfermerio ou médio
+### *Equipamentos*<br/> 
+-Pixel art de todos os equipamentos e utensilios nescessarios<br/> 
+para as interações do enfermerio ou médio<br/> 
 
 # US05
-*Dialogo*
--Recepção do paciente
--Ficha do paciente
--Escolha de instrumentação para tratar as dores mencionadas
--Confecção de medicamentos para tratamento
--Inserção do tratamento no paciente
--Recomendações durante tratamento
--Conclusão de tratamento
--Despedida do paciente
+### *Dialogo*<br/> 
+-Recepção do paciente<br/> 
+-Ficha do paciente<br/> 
+-Escolha de instrumentação para tratar as dores mencionadas<br/> 
+-Confecção de medicamentos para tratamento<br/> 
+-Inserção do tratamento no paciente<br/> 
+-Recomendações durante tratamento<br/> 
+-Conclusão de tratamento<br/> 
+-Despedida do paciente<br/> 
