@@ -8,11 +8,11 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     public static bool GamePaused = false;
     public GameObject pauseMenuUI;
+
     // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        //Trocar a tecla ESC por o clique em alguma imagem de pause
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetMouseButtonDown(0))
         {
             if (GamePaused)
             {
@@ -48,4 +48,5 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    
 }
